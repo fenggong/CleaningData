@@ -42,30 +42,31 @@ The following files are available for the train and test data. Their description
 
 
 # The steps to prcoess the data
-1. Merge the training and test data sets to create one data set:
+
+### Merge the training and test data sets to create one data set:
 
 - Data should be downloaded first;
 - Read the train, test, and subject data;
 - Merge the data
 
-2. Extract the measurement on the mean and standard deviation for each measurement:
+### Extract the measurement on the mean and standard deviation for each measurement:
 
 - read features
 - create a logical vector to extract the mean and standard deviation 
 - extract the train data set on the mean and standard deviation
 
-3. Uses descriptive activity names to name the activities in the data set:
+### Uses descriptive activity names to name the activities in the data set:
 
 - read activity labels
 - Change the activity number to corresponding activity labels
 
-4. Appropriately labels the data set with descriptive variable names:
+### Appropriately labels the data set with descriptive variable names:
 
 - Set the column names of the extracted train data, activity, and subject data 
 - Merge the data
 - Modify the name and make them descriptive and tidy
 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each  activity and each subject:
+### From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each  activity and each subject:
 
 - Aggregate by the activity and subject for the mean of each column (except for the subject and activity column)
 - write the output into a new table
