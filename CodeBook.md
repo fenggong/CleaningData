@@ -53,9 +53,13 @@ The following files are available for the train and test data. Their description
 
 # The steps to prcoess the data
 1. Merge the training and test data sets to create one data set:
+
 - Data should be downloaded first;
+
 - Read the train, test, and subject data;
+
 - Merge the data
+
 2. Extract the measurement on the mean and standard deviation for each measurement:
 - read features
 - create a logical vector to extract the mean and standard deviation 
